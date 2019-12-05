@@ -1,0 +1,48 @@
+.form-row-project{
+  display: inline-block;
+  background: none;
+  border: none;
+  outline: none;
+  color: #ddd;
+  border-radius: 0;
+  padding: 15px;
+}
+.form-control-project{
+  display: inline-block;
+  background: none;
+  border: none;
+  outline: none;
+  color: #ddd;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+}
+.input-area {
+  margin: 0px 0px 12px;
+  padding: 8px;
+}
+.project-bg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(mountains.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 15em;
+  height: 45em;
+}
+.btn-project {
+  width: 50%;
+  padding: 5px;
+  color: #fff;
+  background: none;
+  border: 1px solid #ddd;
+  font-weight: 300;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 5px #000;
+  transition: ease-in 0.2s;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.btn-project:hover {
+  background-color: #ddd;
+  color: #333;
+}

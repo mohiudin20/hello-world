@@ -1,0 +1,65 @@
+<div className="project-bg">
+	<div className="form-row">
+                        <div className="col-md-4">
+                            <div className="form-row-project">
+                                <label for="validationCustom03">Project Name</label><br />
+                                <input type="text" class="form-control-project" id="validationCustom03" required />  
+                            </div><br />
+
+                            <div className="form-row-project">
+                                <label for="validationCustom03">Title of the Page</label><br />
+                                <input type="text" class="form-control-project" id="validationCustom03" required />
+                            </div><br />
+
+                            <div className="form-row-project">
+                                <label for="validationCustom03">Item Type</label><br />
+                                <input type="text" class="form-control-project" id="validationCustom03" required />
+                            </div><br />
+
+                            <div className="form-row-project">
+                                <label for="validationCustom03">Label Type</label><br />
+                                <input type="text" class="form-control-project" id="validationCustom03" required />
+                            </div><br />
+
+                            <div className="form-row-project">
+                                <label for="validationCustom03">Task Size</label><br />
+                                <input type="text" class="form-control-project" id="validationCustom03" required />
+                            </div><br />
+
+			    <div className="form-row-project">
+                                <label for="validationCustom03">No. of Items</label>&ensp;
+                                <select className="form-control-project" id="validationCustom043" required>
+                                        <option style={{color:'black'}}>1</option>
+                                        <option style={{color:'black'}}>2</option>
+                                        <option style={{color:'black'}}>3</option>
+                                        <option style={{color:'black'}}>4</option>
+                                        <option style={{color:'black'}}>5</option>
+                                        <option style={{color:'black'}}>6</option>
+                                        <option style={{color:'black'}}>7</option>
+                                        <option style={{color:'black'}}>8</option>
+                                        <option style={{color:'black'}}>9</option>
+                                        <option style={{color:'black'}}>10</option>
+                                </select>
+                            </div><br />
+
+			    <div className="form-row-project">
+                                <label for="validationCustom03">Instruuction URL</label><br />
+                                <input type="text" class="form-control-project" id="validationCustom03" required />
+                            </div><br />
+
+                            <div className="form-check">
+                                <input className="form-check-input" type="checkbox" value={this.state.value} onChange={this.handleChange} id="invalidCheck2" required />
+                                <label className="form-check-label" for="invalidCheck2" style={{color:'white'}}>
+                                    Agree to terms and conditions*
+                                </label>
+                            </div><br />
+                         
+                            <button className="btn-project" style={{WebkitAppearance:'media-sliderthumb'}} type="submit" value="Submit">Submit Form</button>
+                            {/* <button className="btn-project">Cancel</button> */}
+
+                        </div>
+                        <div className="col-md-6">
+                            <p>Display modal on click submit button</p>
+                        </div>
+                    </div>
+</div>
